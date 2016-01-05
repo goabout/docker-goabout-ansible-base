@@ -13,4 +13,4 @@ RUN apt-get update -q && \
 
 RUN pip install "github3.py>=1.0.0a"
 
-ENV AWS_REGION eu-west-1
+COPY boto.cfg /etc/boto.cfg
