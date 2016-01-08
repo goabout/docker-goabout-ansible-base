@@ -12,5 +12,3 @@ RUN apt-get update -q && \
     rm -rf /var/lib/apt/lists/*
 
 RUN pip install "github3.py>=1.0.0a"
-
-COPY boto.cfg /etc/boto.cfg
