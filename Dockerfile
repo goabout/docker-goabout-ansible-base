@@ -11,4 +11,4 @@ RUN apt-get update -q && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip install "github3.py>=1.0.0a"
+RUN pip install "github3.py>=1.0.0a" dopy
