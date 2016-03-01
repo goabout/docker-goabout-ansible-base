@@ -4,6 +4,7 @@ MAINTAINER Go About <tech@goabout.com>
 
 RUN apt-get update -q && \
     DEBIAN_FRONTEND=noninteractive apt-get install -yq \
+        python-passlib \
         python-pyasn1 \
         python-openssl \
         python-requests \
